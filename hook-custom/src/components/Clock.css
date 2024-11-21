@@ -1,0 +1,19 @@
+/* Clock.css */
+#Clock-style {
+    font-family: 'Arial', sans-serif; /* Font đơn giản và dễ nhìn */
+    font-size: 3rem; /* Kích thước chữ lớn để làm nổi bật thời gian */
+    color: #333; /* Màu chữ tối, dễ đọc */
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Hiệu ứng chuyển màu */
+    padding: 20px; /* Tạo khoảng cách bên trong */
+    border-radius: 15px; /* Góc bo tròn để đẹp mắt */
+    text-align: center; /* Căn giữa nội dung */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tạo bóng mờ để nổi bật */
+    display: inline-block; /* Giới hạn chiều rộng theo nội dung */
+  }
+  
+  #Clock-style span {
+    font-size: 1.5rem; /* Kích thước nhỏ hơn cho AM/PM */
+    color: #666; /* Màu chữ nhẹ hơn */
+    margin-left: 5px; /* Khoảng cách giữa thời gian và AM/PM */
+  }
+  
